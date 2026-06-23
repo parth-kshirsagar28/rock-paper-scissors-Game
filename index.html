@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>RPS Game</h1>
+    <div class="options">
+      <div
+        class="img"
+        id="rock"
+        style="background-image: url(&quot;/images/rock.jpg&quot;)"
+      ></div>
+      <div
+        class="img"
+        id="paper"
+        style="background-image: url(&quot;/images/paper.jpg&quot;)"
+      ></div>
+      <div
+        class="img"
+        id="czr"
+        style="background-image: url(&quot;/images/czr.jpg&quot;)"
+      ></div>
+    </div>
+    <!-- 2nd -->
+    <div class="score">
+      <div class="abc">
+        <p id="user-score">0</p>
+        <p>Your Score</p>
+      </div>
+      <div class="xyz">
+        <p id="comp-score">0</p>
+        <p>Comp Score</p>
+      </div>
+    </div>
+
+    <!-- 3rd -->
+    <div class="last">
+      <span id="result">Play Your Move </span>
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
